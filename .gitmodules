@@ -22,3 +22,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
