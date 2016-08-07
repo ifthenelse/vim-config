@@ -1,15 +1,14 @@
 # vim-config
-My vim configuration with settings and plugins leveraging [Pathogen](https://github.com/tpope/vim-pathogen) and git submodules.
+My vim configuration with settings and plugins leveraging [Vundle](https://github.com/VundleVim/Vundle.vim) as git submodule.
 
-# Installation
+## Install Vundle
 ```zsh
 $ cd ~
 $ git clone git@github.com:ifthenelse/vim-config.git .vim
 $ ln -s .vim/.vimrc
 ```
 
-# Update plugins
+## Install plugins
 ```zsh
-$ cd ~/.vim
-$ git submodule foreach git pull
+$ https://github.com/VundleVim/Vundle.vim
 ```
