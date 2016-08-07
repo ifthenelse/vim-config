@@ -10,5 +10,5 @@ $ ln -s .vim/.vimrc
 
 ## Install plugins
 ```zsh
-$ https://github.com/VundleVim/Vundle.vim
+$ vim +PluginInstall +qall
 ```
