@@ -3,12 +3,12 @@ My vim configuration with settings and plugins leveraging [Vundle](https://githu
 
 ## Install Vundle
 ```zsh
-$ mkdir ~/.vim
 $ git clone git@github.com:ifthenelse/vim-config.git .vim
 $ mkdir -p ~/.vim/bundle                                                                                                                                  *[master]
 $ cd ~/.vim
 $ git submodule init
 $ git submodule update
+$ cd ~
 $ ln -s .vim/.vimrc
 ```
 
