@@ -1,18 +1,14 @@
 # vim-config
-My vim configuration with settings and plugins leveraging [Vundle](https://github.com/VundleVim/Vundle.vim) as git submodule.
+Vim configuration using [Vim-plug](https://github.com/junegunn/vim-plug) as plugin manager.
 
-## Install Vundle
+## Instal Vim-plug
 ```zsh
-$ git clone git@github.com:ifthenelse/vim-config.git .vim
-$ mkdir -p ~/.vim/bundle                                                                                                                                  *[master]
-$ cd ~/.vim
-$ git submodule init
-$ git submodule update
+$ git clone git@github.com:ifthenelse/vim-config.git
 $ cd ~
 $ ln -s .vim/.vimrc
 ```
 
+Vim-plug will be installed when Vim is run for the first time
+
 ## Install plugins
-```zsh
-$ vim +PluginInstall +qall
-```
+Plugins will be installed automatically when Vim is run for the first time
