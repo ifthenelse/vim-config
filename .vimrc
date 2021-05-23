@@ -21,3 +21,6 @@ Plug 'vim-airline/vim-airline.git'
 Plug 'ervandew/supertab.git'
 Plug 'editorconfig/editorconfig-vim.git'
 call plug#end()
+
+colorscheme snazzy
+
