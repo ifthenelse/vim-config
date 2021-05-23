@@ -11,16 +11,12 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-sensible.git'
-Plug 'connorholyday/vim-snazzy'
-Plug 'scrooloose/nerdtree.git'
-Plug 'scrooloose/syntastic.git'
-Plug 'Xuyuanp/nerdtree-git-plugin.git'
-Plug 'vim-scripts/loremipsum.git'
-Plug 'vim-airline/vim-airline.git'
-Plug 'ervandew/supertab.git'
-Plug 'editorconfig/editorconfig-vim.git'
+Plug 'tpope/vim-sensible'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/loremipsum'
+Plug 'ervandew/supertab'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
-
-colorscheme snazzy
-
