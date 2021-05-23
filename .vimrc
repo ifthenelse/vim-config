@@ -12,6 +12,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible.git'
+Plug 'connorholyday/vim-snazzy'
 Plug 'scrooloose/nerdtree.git'
 Plug 'scrooloose/syntastic.git'
 Plug 'Xuyuanp/nerdtree-git-plugin.git'
