@@ -14,4 +14,4 @@ Vim-plug will be installed when Vim is run for the first time
 Plugins will be installed automatically when Vim is run for the first time
 
 ## Update plugins
-To update all plugins, once VIM has been started run command :PlugUpdate
+To update all plugins, once VIM has been started run command `:PlugUpdate`
