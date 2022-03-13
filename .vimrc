@@ -19,4 +19,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/loremipsum'
 Plug 'ervandew/supertab'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'plasticboy/vim-markdown'
+Plug 'pangloss/vim-javascript'
 call plug#end()
