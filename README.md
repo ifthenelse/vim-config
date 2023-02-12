@@ -3,10 +3,10 @@ Vim configuration using [Vim-plug](https://github.com/junegunn/vim-plug) as plug
 
 ## Install Vim-plug and configuration
 ```zsh
-$ cd ~
-$ git clone git@github.com:ifthenelse/vim-config.git .vim
-$ cd ~
-$ ln -s .vim/.vimrc
+cd ~
+git clone git@github.com:ifthenelse/vim-config.git .vim
+cd ~
+ln -s .vim/.vimrc
 ```
 
 Vim-plug will be installed when Vim is run for the first time
